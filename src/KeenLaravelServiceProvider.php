@@ -22,7 +22,7 @@ class KeenLaravelServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/config/KeenConfig.php' => config_path('keen.php')
+            __DIR__.'/config/KeenConfig.php' => config_path('keen.php')
         ]);
     }
 
