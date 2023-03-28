@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.5",
-    "illuminate/support": "7.*",
+    "php": ">=7.3.0",
+    "illuminate/support": "8.*",
     "keen-io/keen-io": "~2.8"
   },
   "require-dev": {
